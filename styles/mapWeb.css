@@ -1,0 +1,76 @@
+﻿#logo {
+    position: relative;
+    bottom: 40px;
+}
+
+h1 {
+    font-family: 'BN Penguin';
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px #003a58;
+    position: relative;
+    top: 150px;
+    text-decoration: 2px solid white;
+}
+
+#mapWebBackGround {
+    position: relative;
+    right: 150px;
+}
+
+#mapWebPage {
+    border-bottom: 2px solid white;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mapWeb {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(0 0 0 / 0.15);
+    width: 350px;
+}
+
+    .mapWeb a {
+        text-decoration: none;
+        width: 130px;
+        font-family: Calibri;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        text-decoration: underline;
+    }
+
+        .mapWeb a:hover {
+            color: cornflowerblue;
+        }
+
+        #mapWebProdoct li {
+            display: block;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 10px;
+        }
+
+
+#mapWebProdoct li a {
+    text-decoration: none;
+    width: 130px;
+    font-family: Calibri;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-decoration:underline;
+}
+
+    #mapWebProdoct li a:hover {
+        color: cornflowerblue;
+    }
+    
+

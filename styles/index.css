@@ -1,0 +1,304 @@
+﻿#container {
+    width: 100%;
+    max-height:2050px;
+    overflow:auto;
+    margin: 0 auto;
+    background-color: mintcream;
+    background: url('../images/2846692.png') no-repeat top center;
+    background-size:cover;
+}
+
+#whatsapp{
+    float:left;
+    padding-top:15px;
+    padding-left:15px;
+}
+
+#number {
+    float: left;
+    font-size: 18px;
+    font-family: system-ui;
+    padding-top: 20px;
+    color:white;
+}
+
+#logo {
+    float: right;
+    margin-top:10px;
+}
+
+nav#mainNav {
+    width:900px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 90px;
+    padding-top: 10px;
+}
+
+nav#mainNav ul {
+        list-style: none;
+        margin: 0 auto;
+    }
+
+nav#mainNav ul li {
+        display: inline-block;
+        float: right;
+        font-size: 18px;
+}
+
+nav#mainNav ul li ul {
+        display: none;
+        position: absolute;
+}
+
+
+nav#mainNav ul li:hover ul {
+        display: block;
+        width: 130px;
+        right: 130px;
+        line-height: 30px;
+        font-size: 16px;
+}
+
+#mainNav a {
+    text-decoration: none;
+    width: 130px;
+    font-family: Calibri;
+    color: white;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #ffffff00;
+}
+
+#mainNav a:hover {
+        color: cornflowerblue;
+        border-bottom: 1px solid white;
+}
+
+.notActive{
+    cursor:not-allowed;
+}
+
+#featureDiv {
+    width: 700px;
+    height:300px;
+    background-color: rgb(0 0 0 / 0.15);
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:30px;
+    margin-top:100px;
+}
+
+img#feature {
+    margin-right:auto;
+    margin-left:auto;
+    margin: 20px;
+}
+
+#lamp{
+    position:relative;
+    bottom:300px;
+    right:550px;
+    transform:rotate(340deg);
+}
+
+#arrow {
+    position: relative;
+    right: 1000px;
+    bottom: 20px;
+}
+
+#odot pre {
+    color: white;
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 440px;
+    line-height: 2;
+    margin-bottom: 100px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+#odot h2{
+    position:relative;
+    bottom:450px;
+}
+
+
+#whatWeDo img{
+    position:relative;
+    bottom:560px;
+    right:80px;
+}
+
+#whatWeDo h2{
+    position:relative;
+    bottom:700px;
+}
+
+#whatWeDo #pic3{
+   right:600px;
+}
+
+#whatWeDo #pic2 {
+    right: 400px;
+}
+
+#whatWeDo #pic1 {
+    right: 200px;
+}
+
+#whatWeDo span {
+    font-size: 30px;
+    color: white;
+    font-family: Calibri;
+    position: relative;
+    bottom: 650px;
+    text-shadow: 2px 2px 5px #003a58;
+}
+#whatWeDo #span3 {
+    right: 460px;
+}
+
+#whatWeDo #pic3:hover {
+   transform:rotate(90deg);
+}
+
+#whatWeDo #pic2:hover {
+    transform: rotate(90deg);
+}
+
+#whatWeDo #pic1:hover {
+    transform: rotate(90deg);
+}
+
+#whatWeDo #span2 {
+    right: 260px;
+}
+
+#whatWeDo #span1 {
+    right: 60px;
+}
+h2 {
+    font-family: 'BN Penguin';
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px #003a58;
+}
+
+#footer {
+    background-size: cover;
+    background-image: url('../images/footerBG1-02.png');
+    border-top: 3px solid white;
+    width: 100%;
+    height: 530px;
+    position: relative;
+    bottom: 400px;
+}
+
+    #footer #contect {
+        padding-top: 1px;
+        padding-right: 150px;
+    }
+
+#contect h3 {
+    position: relative;
+    top: 0px;
+    text-align: right;
+    color: white;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: Calibri;
+    margin-bottom: 30px;
+    
+}
+
+
+#name, #email, #phone {
+    display: block;
+    border-width: 0 0 0.1em;
+    background-color: #00008b00;
+    border-color: white;
+    width: 300px;
+    font-size: 18px;
+    font-family: Calibri;
+    color: white;
+    margin-bottom: 30px;
+}
+
+        #contect span {
+            font-family: Calibri;
+            font-size: 18px;
+            color: white;
+        }
+
+textarea {
+    display: block;
+    border: 1px solid white;
+    background-color: #00008b00;
+    width: 300px;
+    height: 100px;
+    font-family:Calibri;
+    font-size: 18px;
+    color:white;
+}
+
+input#button1 {
+    width: 100px;
+    height: 30px;
+    font-family: Calibri;
+    position: relative;
+    color:white;
+    top:7px;
+    right:206px;
+    font-size: 18px;
+    border: 1px solid white;
+    background-color: #00008b00;
+
+}
+
+
+    input#button1:hover {
+        background-color: white;
+        color: darkblue;
+    }
+#logoFotter {
+    position: relative;
+    bottom: 850px;
+    right: 1000px;
+    width: 300px;
+}
+
+footer pre{
+    font-family: Calibri;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    right:400px;
+    bottom: 850px;
+    text-align: center;
+    line-height: 25px;
+}
+
+footer p {
+    font-family: Calibri;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    right: 400px;
+    bottom: 810px;
+    text-align: center;
+    line-height: 25px;
+}
+
+    footer p a {
+        font-size: 16px;
+        font-family: Calibri;
+        letter-spacing: 1px;
+        line-height: 40px;
+        color: white;
+    }

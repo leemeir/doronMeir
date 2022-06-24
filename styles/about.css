@@ -1,0 +1,157 @@
+﻿#logo {
+    position: relative;
+    bottom: 40px;
+}
+
+#odotNav a{
+    background-color:darkslateblue;
+}
+
+h1 {
+    font-family: 'BN Penguin';
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px #003a58;
+    position:relative;
+    top:150px;
+    text-decoration: 2px solid white;
+}
+
+#odotBackGround {
+    position: relative;
+    right: 200px;
+}
+
+#odotPage{
+    border-bottom: 2px solid white;
+    width:900px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#about {
+    width: 100%;
+    height:1160px;
+    padding-right:150px;
+    padding-top:50px;
+}
+
+main pre {
+    color: white;
+    font-size: 20px;
+    font-family: Calibri;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+input#moreinfoButton {
+    width: 140px;
+    height: 50px;
+    font-family: Calibri;
+    position: relative;
+    color: white;
+    bottom:300px;
+    font-size: 22px;
+    letter-spacing:1px;
+    border: 1px solid white;
+    background-color: #00008b00;
+}
+
+    input#moreinfoButton:hover {
+        background-color: white;
+        color: darkblue;
+    }
+
+    #about img{
+        position:relative;
+        right:300px;
+        margin-left:100px;
+    }
+#aboutLee {
+    width: 100%;
+    padding-right: 150px;
+    padding-top: 50px;
+    position:relative;
+    bottom:650px;
+}
+
+div#aboutLee ul li {
+    list-style: none;
+}
+
+    div#aboutLee ul li a {
+        text-align: right;
+        font-size: 20px;
+        font-family: Calibri;
+        letter-spacing: 1px;
+        line-height: 40px;
+        color: white;
+        text-shadow: 2px 2px 5px #000000;
+    }
+
+        div#aboutLee ul li a:hover {
+            color: cornflowerblue;
+        }
+
+        #aboutNav > a {
+            position: relative;
+            right: 35px;
+            bottom: 200px;
+            width: 300px;
+            font-size: 20px;
+            font-family: Calibri;
+            letter-spacing: 1px;
+            line-height: 40px;
+            color:black;
+        }
+
+    #aboutNav > a:hover {
+        color: darkcyan;
+    }
+
+    #logoHit {
+        position: relative;
+        right: 300px;
+        bottom: 200px;
+    }
+
+#footerOdot {
+    position: relative;
+    background-size: cover;
+    background-image: url('../images/footerBG1-02.png');
+    border-top: 3px solid white;
+    width: 100%;
+    height: 500px;
+    bottom: 815px;
+}
+
+    #footerOdot #contect {
+        padding-top: 1px;
+        padding-right: 150px;
+    }
+
+#preOdot {
+    font-family: Calibri;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    right: 400px;
+    bottom: 1250px;
+    text-align: center;
+    line-height: 25px;
+}
+
+#logoFotterOdot {
+    position: relative;
+    bottom: 1250px;
+    right: 1000px;
+    width: 300px;
+}
+
+footer #pAbout{
+    position:relative;
+    bottom:1210px;
+}

@@ -1,0 +1,162 @@
+﻿#container{
+    height:1695px;
+}
+
+#logo1 {
+    float: right;
+    position:relative;
+    bottom:30px;
+}
+
+#logosPage {
+    border-bottom: 2px solid white;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-family: 'BN Penguin';
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px #003a58;
+    position: relative;
+    top: 150px;
+    text-decoration: 2px solid white;
+}
+
+#logosBackGround {
+    position: relative;
+    right: 160px;
+}
+
+#logoPre pre {
+    color: white;
+    font-size: 20px;
+    font-family: Calibri;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding-right: 150px;
+    padding-top: 50px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.logoSlide {
+    position: relative;
+    right: 450px;
+    box-sizing: border-box;
+    width: 600px;
+    height:1000px;
+   
+}
+
+.mySlides img{
+    display:block;
+    margin:auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    margin-top:50px;
+    border: 2px solid white;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 180px;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    border: 2px solid white;
+}
+
+/* Position the "next button" to the right */
+.next {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  
+}
+
+.prev {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        filter: grayscale(1);
+        background-color: rgb(87 29 191 / 61%);
+    }
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    font-family:Calibri;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    text-align:center;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: rgb(87 29 191 / 61%);
+    padding: 2px 16px;
+    color: white;
+    font-family: Calibri;
+    font-size: 18px;
+    width: 564px;
+    border: 2px solid white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float:right;
+    width:96px;
+    height:96px;
+    border: 2px solid white;
+}
+
+.column img{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+        opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }

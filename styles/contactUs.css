@@ -1,0 +1,89 @@
+﻿#logo{
+    position:relative;
+    bottom:40px;
+}
+
+#contactUs a {
+    background-color: darkslateblue;
+}
+
+h1 {
+    font-family: 'BN Penguin';
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px #003a58;
+    position: relative;
+    top: 150px;
+    text-decoration: 2px solid white;
+}
+
+#contactBackGround {
+    position: relative;
+    right: 140px;
+}
+
+#contactPage {
+    border-bottom: 2px solid white;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contactDiv h2 {
+    position: relative;
+    top: 0px;
+    text-align: right;
+    color: white;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: Calibri;
+    margin-bottom: 30px;
+}
+
+#contactDiv {
+    width: 100%;
+    height: 700px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+    #contactDiv span {
+        font-family: Calibri;
+        font-size: 18px;
+        color: white;
+    }
+
+   #male, #female, #other{
+       width:30px;
+   }
+select {
+    border-width: 0 0 0.1em;
+    background-color: #00008b00;
+    border-color: white;
+    width: 200px;
+    font-size: 18px;
+    font-family: Calibri;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+option{
+    color:black;
+}
+ 
+#pic1{
+    position:relative;
+    bottom:450px;
+    right:550px;
+}
+
+#attribute{
+    position:relative;
+    bottom:450px;
+    right:500px;
+    color:white;
+    font-size:10px;
+}
